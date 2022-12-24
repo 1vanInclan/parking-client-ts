@@ -31,3 +31,8 @@ ul li {
   max-width: 320px;
   padding: 8px 32px;
 }
+
+.logo{
+  /* background-color: red; */
+  width: 150px;
+}
