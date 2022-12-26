@@ -18,7 +18,6 @@ interface Props {
 }
 
 const CardInfo = ({data}: { data: Props }) => {
-    // console.log(data);
   return (
 
         <div className="info">
