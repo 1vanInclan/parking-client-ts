@@ -15,9 +15,17 @@ export const Carousel = ({id} : Props) => {
                     <button type="button" data-bs-target={`#carouselExampleIndicators${id}`}  data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target={`#carouselExampleIndicators${id}`} data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target={`#carouselExampleIndicators${id}`} data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target={`#carouselExampleIndicators${id}`} data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target={`#carouselExampleIndicators${id}`} data-bs-slide-to="4" aria-label="Slide 5"></button>
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
+                        <img src="https://cdn-3.expansion.mx/dims4/default/672179e/2147483647/strip/true/crop/659x462+0+0/resize/1200x841!/format/webp/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Ff6%2Ff69051c3f951a3950adf875cc90ded5f%2Festacionamiento20170717143222.jpg" className="d-block w-100" alt="..."/>
+                    </div>
+                    <div className="carousel-item">
+                        <img src="https://cdn-3.expansion.mx/dims4/default/672179e/2147483647/strip/true/crop/659x462+0+0/resize/1200x841!/format/webp/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Ff6%2Ff69051c3f951a3950adf875cc90ded5f%2Festacionamiento20170717143222.jpg" className="d-block w-100" alt="..."/>
+                    </div>
+                    <div className="carousel-item">
                         <img src="https://cdn-3.expansion.mx/dims4/default/672179e/2147483647/strip/true/crop/659x462+0+0/resize/1200x841!/format/webp/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Ff6%2Ff69051c3f951a3950adf875cc90ded5f%2Festacionamiento20170717143222.jpg" className="d-block w-100" alt="..."/>
                     </div>
                     <div className="carousel-item">

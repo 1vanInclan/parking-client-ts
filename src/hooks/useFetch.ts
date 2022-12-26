@@ -10,7 +10,7 @@ export interface Address {
 export interface Parking {
     Id: number,
     Address: Address,
-    Amnities: string[],
+    Amenities: string[],
     Images: string[],
     Description: string,
     Price: number,
