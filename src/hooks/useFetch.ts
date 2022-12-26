@@ -1,8 +1,15 @@
 import { useEffect, useState } from "react";
 
+export interface Address {
+    Calle: string
+    Numero: number
+    Estado: string
+    Estado_Abreviado: string
+}
+
 export interface Parking {
     Id: number,
-    Address: string,
+    Address: Address,
     Amnities: string[],
     Images: string[],
     Description: string,

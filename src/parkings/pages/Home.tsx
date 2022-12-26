@@ -8,6 +8,8 @@ export const Home = () => {
     "http://localhost:5000/api/parkings"
   );
 
+  console.log(data)
+
   return (
       <div className="contenedor">
         <h1>Home</h1>
@@ -19,7 +21,7 @@ export const Home = () => {
                 <Carousel id={parking.Id}/>
                 <div className="info">
                   <div className="title">
-                    <h4 className="address">{parking.Address}</h4>
+                    <h4 className="address">{parking.Address.Calle},#{parking.Address.Numero},{parking.Address.Estado_Abreviado}</h4>
                     <h5>{parking.Score}</h5>
                   </div>
                     <hr/>

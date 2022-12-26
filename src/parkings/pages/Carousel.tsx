@@ -7,7 +7,7 @@ interface Props {
 export const Carousel = ({id} : Props) => {
     
 
-    console.log(id);
+    // console.log(id);
   return (
     <div className='left-img'>
             <div id={`carouselExampleIndicators${id}`} className="carousel slide" data-bs-ride="carousel">
