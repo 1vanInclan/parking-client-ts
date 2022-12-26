@@ -15,7 +15,9 @@ export const Home = () => {
 
   return (
       <div className="contenedor">
-        <h1>Home</h1>
+        <div>
+          <h1>Parkings</h1>
+        </div>
         <div className="parking-container">
         {
           data.map( parking => (
