@@ -27,7 +27,7 @@ code {
   align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 10px;
 }
 
 .card-parking{
@@ -65,9 +65,7 @@ code {
   width: 100%;
 }
 
-.info{
-  width: 48%;
-}
+
 
 img{
   border-radius: 0px;
@@ -92,5 +90,19 @@ img{
   }
 }
 
+
+/* Info card */
+
+.info{
+  width: 58%;
+  padding-left: 10px;
+  padding-top: 25px;
+  /* background-color: blue; */
+}
+
+
+.address{
+  font-size: 20px;
+}
 
 

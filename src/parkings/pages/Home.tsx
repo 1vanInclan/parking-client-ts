@@ -17,10 +17,15 @@ export const Home = () => {
             
             <div className="card-parking" key={parking.Id}>
                 <Carousel id={parking.Id}/>
-
                 <div className="info">
-                info
-                </div> 
+                  <div className="title">
+                    <h4 className="address">{parking.Address}</h4>
+                    <h5>{parking.Score}</h5>
+                  </div>
+                    <hr/>
+                  <div>Amenities</div>
+                  <div>Costo</div>
+                  </div> 
               </div>
             ) )
         }
