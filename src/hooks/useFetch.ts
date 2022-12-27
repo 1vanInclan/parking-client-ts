@@ -39,7 +39,7 @@ export const useFetch = (url:string) => {
             isLoading: true,
         });
 
-        const resp = await fetch(url);
+        const resp = await fetch(url, {mode: 'cors'});
         const data = await resp.json();
 
         setState({

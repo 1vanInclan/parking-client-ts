@@ -6,7 +6,7 @@ import CardInfo from "./CardInfo";
 
 export const CardPakirng = () => {
     const { data, isLoading, hasError } = useFetch(
-        "http://localhost:5000/api/parkings"
+        "http://192.168.100.8:5000/api/parkings"
       );
   return (
     <>

@@ -24,6 +24,11 @@ body{
   
 }
 
+.title-contenedor{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
 .parking-container{
   display: flex;
   align-items: center;

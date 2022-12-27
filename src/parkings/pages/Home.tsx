@@ -5,7 +5,7 @@ export const Home = () => {
 
   return (
       <div className="contenedor">
-        <div>
+        <div className="title-contenedor">
           <h1>Parking spaces available</h1>
         </div>
         <div className="parking-container">
